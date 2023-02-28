@@ -34,8 +34,8 @@ return [
             'channels' => [
                 'default'  => [
                     'driver' => 'daily',
-                    'level'  => env('WECHAT_LOG_LEVEL', 'debug'),
-                    'path'   => env('WECHAT_LOG_FILE', app()->getRuntimePath() . "log/wechat.log"),
+                    'level'  => 'debug',
+                    'path'   => app()->getRuntimePath() . "log/wechat.log",
                 ],
             ],
         ],
