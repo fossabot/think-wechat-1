@@ -32,10 +32,6 @@ return [
         'log'           => [
             'default'  => 'default',
             'channels' => [
-                'thinkphp' => [
-                    'driver' => 'thinkphp',
-                    'level'  => env('WECHAT_LOG_LEVEL', 'debug'),
-                ],
                 'default'  => [
                     'driver' => 'daily',
                     'level'  => env('WECHAT_LOG_LEVEL', 'debug'),
